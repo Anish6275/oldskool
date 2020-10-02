@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="paper.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9f37ddf547.js"></script>
+
+</head>
+<style>
+    article img {
+        height: 30vh;
+        width: 30vh;
+        border-radius: 50%;
+    }
+
+    article .about {
+        margin: 0 10vw 5vw 10vw;
+    }
+
+    article .text-lead {
+        margin: 6px;
+    }
+
+    .form-group .paper-switch-tile {
+        cursor: pointer;
+        display: block;
+        float: inherit;
+        height: 72px;
+        margin: 0;
+        margin-bottom: 1rem;
+        width: 30vw;
+        transform: translate(0, 0);
+    }
+
+    .form-group {
+        margin-bottom: 0;
+    }
+
+    .form-group textarea {
+        height: 30vw;
+        width: 100vw;
+    }
+
+    .top-gap {
+        margin-top: 10vh;
+    }
+   
+</style>
+
+<body>
+    <nav class="border fixed split-nav">
+        <div class="nav-brand">
+            <h4>Old Skool</h4>
+        </div>
+    </nav>
+
+    <section class="top-gap bottom-gap">
+        <img src="add.jpg" alt="add">
+        <div class="row">
+            <div class="col sm-8">
+                <div class="form-group">
+                    <label for="paperInputs3">Tags</label>
+                    <input class="input-block" type="text" placeholder="Enter #tags" id="paperInputs3">
+                    <label>seperate two tags by a gap.</label>
+                </div>
+                <div class="form-group">
+                    <label for="large-input">Story</label>
+                    <textarea id="large-input" placeholder=""></textarea>
+                    <label>you can also use this to post only stories</label>
+                </div>
+                <fieldset class="form-group">
+                    <p></p>
+                    <label class="paper-switch-2">
+                        <input id="paperSwitch10" name="paperSwitch10" type="checkbox" />
+                        <span class="paper-switch-slider round"></span>
+                    </label>
+                    <label for="paperSwitch10" class="paper-switch-2-label">
+                        enable mature content filter
+                    </label>
+                </fieldset>
+            </div>
+        </div>
+        <div class="col-12 col">
+            <button class="btn-block btn-secondary-outline">Post</button>
+        </div>
+    </section>
+    <section class="nav">
+        <div class="icon active">
+            <i class="fas fa-fire"></i>
+            <p>Home</p>
+        </div>
+        <div class="icon">
+            <i class="fas fa-globe"></i>
+            <p>Live</p>
+        </div>
+        <div class="icon">
+            <i class="fas fa-comment-dots"></i>
+            <p>Chats</p>
+        </div>
+        <div class="icon">
+            <i class="fas fa-bell"></i>
+            <p>Notifications</p>
+        </div>
+        <div class="icon">
+            <i class="fas fa-user"></i>
+            <p>Profile</p>
+        </div>
+    </section>
+</body>
+
+</html>
